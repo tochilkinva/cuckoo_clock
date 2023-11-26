@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "cuckoo-clock"
+version = "0.1.0"
+description = ""
+authors = ["Valentin Tochilkin <foxairman@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+python-vlc = "^3.0.20123"
+apscheduler = "^3.10.4"
+autoflake = "^2.2.1"
+pyupgrade = "^3.15.0"
+black = "^23.11.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
